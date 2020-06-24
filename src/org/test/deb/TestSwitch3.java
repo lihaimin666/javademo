@@ -7,7 +7,7 @@ public class TestSwitch3 {
 	public static void main(String[] args) {
 		
 		String str ;
-		int score = -1;
+		int score = 60;
 		str = score>60?"合格":"不合格";
 		switch (str) {
 		case "合格":
