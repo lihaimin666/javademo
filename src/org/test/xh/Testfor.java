@@ -10,5 +10,6 @@ public class Testfor {
 		}
 		System.out.println(result);
 	}
+	
 
 }
