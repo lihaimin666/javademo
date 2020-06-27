@@ -6,13 +6,14 @@ public class lizi2 {
  * @param args
  */
 	public static void main(String[] args) {
-		for (int i = 2; i <= 100; i++) {
+	for1:for (int i = 2; i <= 100; i++) {
 			boolean flag = true;
 			//如果2到自身减1 有能被整除的就不是质数
-			for (int j = 2; j < i; j++) {
+			for2:for (int j = 2; j < i; j++) {
 				if (i % j == 0) {
 					flag = false;
-					break;
+					break ;
+					
 				}
 			}
 			if (flag) {
