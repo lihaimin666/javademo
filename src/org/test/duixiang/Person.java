@@ -3,23 +3,26 @@ package org.test.duixiang;
 public class Person {
 
 	
-	String name;
-	int hight;
-	int age;
-	boolean sex;
+	private int age;
 	
+
+
 	public void sleep() {
 		System.out.println("sleep");
 	}
 	
-	public void eat() {
-		System.out.println("eat");
-	}
+
 	
-	public void la() {
-		System.out.println("la");
+	public int getAge() {
+		return age;
 	}
-	public void play() {
-		System.out.println("paly");
+
+	public void setAge(int age) {
+		
+		if(age<1||age>130) {
+			System.out.println("age is error! ");
+			return;
+		}
+		this.age = age;
 	}
 }

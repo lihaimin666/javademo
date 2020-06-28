@@ -1,7 +1,7 @@
 package org.test.method;
 
 public class TestTransfer1 {
-	//传递地址，修改地址空间的值 
+	//传递地址，修改地址空间的
 	public static void main(String[] args) {
 		DataSwap ds = new DataSwap();
 		ds.a = 6;
