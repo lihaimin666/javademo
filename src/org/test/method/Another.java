@@ -2,6 +2,8 @@ package org.test.method;
 
 public class Another {
 	
+	int height;
+	int width;
 	public  int getArea(int x,int y) {
 		
 		return x*y;

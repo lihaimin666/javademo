@@ -35,7 +35,13 @@ public class Cat {
     	  return z;
       }
       
-      public int mm(int x,int y ,int xy) {
+      public String mm(String x,int y) {
+    	  
+    	 
+    	  return x;
+      }
+      
+      public int mm(int x,int y ,String xy) {
     	  
     	  return 9;
       }
