@@ -1,13 +1,22 @@
 package org.test.xh;
 
 import java.util.Scanner;
+import  org.test.duixiang.d2.*;
 
+import org.test.javabean.*;
 public class lizi6 {
+	
 /**
  * 求 1~100之间的质数（质数是能被  1 和自身整除的数据）
  * @param args
  */
 	public static void main(String[] args) {
+		
+		
+		Person p = new Person();
+		
+		Boy b = new Boy();
+		
 		Scanner  scan ;
 		int num=0 ;
 		int zshu=0;

@@ -1,5 +1,5 @@
 package org.test.deb;
-
+import  org.test.duixiang.Person;
 public class yunSuanFu {
 
 	public static void main(String[] args) {
