@@ -20,6 +20,7 @@ public class TestArr2 {
 		char[] b = new char[36];
 		int n= 0;
 		for(int i=0;i<36;i++) {
+			
 			if(i<26) {
 				b[i]=(char) ('A'+i);
 				System.out.print(b[i]);
@@ -29,6 +30,8 @@ public class TestArr2 {
 				System.out.print(b[i]);
 			}
 		}
+		
+		System.out.println(b.length);
 	}
 
 }
