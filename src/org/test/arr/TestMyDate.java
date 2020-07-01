@@ -6,6 +6,7 @@ public class TestMyDate {
 		// TODO Auto-generated method stub
 		MyDate[] d;
 		
+		
 		d = new MyDate[10];
 		
 		for(int i=0;i<10;i++) {
