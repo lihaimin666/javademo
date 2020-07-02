@@ -12,9 +12,13 @@ public class PC extends Computer {
 		this.sb=" shubiao ";
 	}
 	
+	PC(double price){
+		this();
+		this.price=price;
+	}
 	
 	public String getDetails() {
 		
-		return super.getDetails()+jp+pm+sb;
+		return super.getDetails()+jp+pm+sb+" PC ¿‡";
 	}
 }

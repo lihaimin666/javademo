@@ -4,25 +4,29 @@ public class Computer {
 	 String cpu;
 	 String memory;
 	 String data;
+	 double price;
 	 
 	 Computer(){
 		 
 	 }
-	 Computer(String cpu ,String memory ,String data){
+	 Computer(double price){
+		 this("kkk");
+		 this.price=price;
+	 }
+	 Computer(String cpu ,String memory ,String data,double price){
 		 this.cpu=cpu;
 		 this.memory=memory;
 		 this.data=data;
-		 
-		 
+		 this.price=price;
 	 }
 	 
 	 Computer(String cpu){
-		 this(cpu," 8 G"," 120 T ");
+		 this(cpu," 8 G"," 120 T ",1200);
 	 }
 	
 	public String getDetails() {
 		
-		return cpu+memory+data;
+		return cpu+memory+data+" Computer ¿‡";
 	}
 	
 	
