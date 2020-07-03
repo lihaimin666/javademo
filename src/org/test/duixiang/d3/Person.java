@@ -17,7 +17,7 @@ public class Person {
 	}
 	
 	public String say() {
-		return "我是"+this.name+" 我的年龄是"+this.age;
+		return "我是"+this.name+" 我的年龄是"+this.age+"  Person 类 ";
 	}
 	
 	

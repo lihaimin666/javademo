@@ -16,7 +16,18 @@ public class Teacher extends Person {
 	        return id;
 	    }
 	    public String say() {
-	        return super.say() + " 工号：" + id + " 专业：" + major;
+	        return super.say() + " 工号：" + id + " 专业：" + major+"  Teacher 类";
 	    }
+	    
+	    
+		public String getMajor() {
+			return major;
+		}
+		public void setMajor(String major) {
+			this.major = major;
+		}
+		public void setId(int id) {
+			this.id = id;
+		}
 
 }
