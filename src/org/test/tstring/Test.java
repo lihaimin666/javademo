@@ -19,6 +19,7 @@ public class Test {
 	     String d = cde.substring(1, 2);
 	     System.out.println(d);
 	     */
+		/*
 		char[] c = {'a','b','c'};
 		StringBuffer  sb = new StringBuffer("abcdefg");
 		//追加字符串
@@ -38,6 +39,14 @@ public class Test {
 		System.out.println(stb.toString());
 		System.out.println(stb.indexOf("ww"));
 		System.out.println(stb.length());
+		*/
+		
+		String s1="腾科艾技";
+		String s2="很好";
+		String s3 = s1.concat(s2);
+		boolean b = s1.contentEquals(s3.replaceFirst("艾", "艾腾科技很好艾"));
+		boolean c = s3.contentEquals("艾腾科技很好");
+		System.out.println(s3.replaceFirst("艾", "google"));
 	     
 	}
 }
