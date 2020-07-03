@@ -11,8 +11,5 @@ public class test3{
 		System.out.println("     *\t  *\t\t\t  *\t *  \n");
 	}
 	
-	public  test(){
-		
-		
-	}
+
 }

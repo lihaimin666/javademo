@@ -8,7 +8,7 @@ public class Student {
 	private int score;
 	
 	
-	Student(){}
+	public Student(){}
 	Student(int number,int state,int score){
 	       this.number=number;
 	       this.state =state;
